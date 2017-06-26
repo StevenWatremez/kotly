@@ -1,0 +1,90 @@
+# HFS FileSystem
+.DS_Store
+._*
+.idea
+.svn
+
+# Xcode
+xcuserdata
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.moved-aside
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Build-Generated
+DerivedData
+*/build/*
+build
+test-reports
+*.hmap
+*.gcda
+*.gcno
+
+# Fastlane
+report.xml
+Reports
+
+scripts/paths.sh
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+.settings
+.metadata
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+.gradle/
+build/
+
+# Hidden files
+Thumbs.db
+.DS_Store
+
+# CrashLytics
+com_crashlytics_export_strings.xml
+
+# PDN specific
+app/src/main/assets/crashlytics-build.properties
+app/manifest-merger-recfonc-release-report.txt
+
+# git flow
+gitflow/
+gitflow-installer.sh
+
+# captures
+captures/
+
+# tmp json file
+tmp.json
+
+# file containing local data
+run_config_local.sh
