@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6D78FBEF1F00E5EF0064670D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FBEE1F00E5EF0064670D /* AppDelegate.swift */; };
-		6D78FBF11F00E5EF0064670D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FBF01F00E5EF0064670D /* ViewController.swift */; };
-		6D78FBF41F00E5EF0064670D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D78FBF21F00E5EF0064670D /* Main.storyboard */; };
-		6D78FBF61F00E5EF0064670D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D78FBF51F00E5EF0064670D /* Assets.xcassets */; };
-		6D78FBF91F00E5EF0064670D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D78FBF71F00E5EF0064670D /* LaunchScreen.storyboard */; };
 		6D78FC041F00E5EF0064670D /* Kotly_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FC031F00E5EF0064670D /* Kotly_iOSTests.swift */; };
 		6D78FC0F1F00E5EF0064670D /* Kotly_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FC0E1F00E5EF0064670D /* Kotly_iOSUITests.swift */; };
 /* End PBXBuildFile section */
@@ -36,17 +32,17 @@
 /* Begin PBXFileReference section */
 		6D78FBEB1F00E5EF0064670D /* Kotly iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kotly iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D78FBEE1F00E5EF0064670D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D78FBF01F00E5EF0064670D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6D78FBF31F00E5EF0064670D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D78FBF51F00E5EF0064670D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D78FBF81F00E5EF0064670D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6D78FBFA1F00E5EF0064670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D78FBFF1F00E5EF0064670D /* Kotly iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kotly iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D78FC031F00E5EF0064670D /* Kotly_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotly_iOSTests.swift; sourceTree = "<group>"; };
 		6D78FC051F00E5EF0064670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D78FC0A1F00E5EF0064670D /* Kotly iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kotly iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D78FC0E1F00E5EF0064670D /* Kotly_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotly_iOSUITests.swift; sourceTree = "<group>"; };
 		6D78FC101F00E5EF0064670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D926C751F00ED5B00C21D5C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6D926C761F00ED5B00C21D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D926C791F00ED5B00C21D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D926C7A1F00ED5B00C21D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D926C7B1F00ED5B00C21D5C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				6D78FBEE1F00E5EF0064670D /* AppDelegate.swift */,
-				6D78FBF01F00E5EF0064670D /* ViewController.swift */,
-				6D78FBF21F00E5EF0064670D /* Main.storyboard */,
-				6D78FBF51F00E5EF0064670D /* Assets.xcassets */,
-				6D78FBF71F00E5EF0064670D /* LaunchScreen.storyboard */,
-				6D78FBFA1F00E5EF0064670D /* Info.plist */,
+				6D926C731F00ED5B00C21D5C /* Business */,
+				6D926C771F00ED5B00C21D5C /* Data */,
+				6D926C781F00ED5B00C21D5C /* Resources */,
+				6D926C741F00ED5B00C21D5C /* View */,
 			);
 			path = "Kotly iOS";
 			sourceTree = "<group>";
@@ -123,6 +118,39 @@
 				6D78FC101F00E5EF0064670D /* Info.plist */,
 			);
 			path = "Kotly iOSUITests";
+			sourceTree = "<group>";
+		};
+		6D926C731F00ED5B00C21D5C /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		6D926C741F00ED5B00C21D5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D926C751F00ED5B00C21D5C /* Main.storyboard */,
+				6D926C761F00ED5B00C21D5C /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D926C771F00ED5B00C21D5C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6D926C781F00ED5B00C21D5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D926C791F00ED5B00C21D5C /* Assets.xcassets */,
+				6D926C7A1F00ED5B00C21D5C /* Info.plist */,
+				6D926C7B1F00ED5B00C21D5C /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D78FBF91F00E5EF0064670D /* LaunchScreen.storyboard in Resources */,
-				6D78FBF61F00E5EF0064670D /* Assets.xcassets in Resources */,
-				6D78FBF41F00E5EF0064670D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D78FBF11F00E5EF0064670D /* ViewController.swift in Sources */,
 				6D78FBEF1F00E5EF0064670D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +315,6 @@
 			targetProxy = 6D78FC0B1F00E5EF0064670D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6D78FBF21F00E5EF0064670D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D78FBF31F00E5EF0064670D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6D78FBF71F00E5EF0064670D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D78FBF81F00E5EF0064670D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D78FC111F00E5EF0064670D /* Debug */ = {
@@ -419,8 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = C8NWXKTJBC;
-				INFOPLIST_FILE = "Kotly iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Kotly iOS/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOS";
@@ -434,8 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = C8NWXKTJBC;
-				INFOPLIST_FILE = "Kotly iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Kotly iOS/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOS";
@@ -526,6 +533,7 @@
 				6D78FC151F00E5EF0064670D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D78FC161F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				6D78FC181F00E5EF0064670D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D78FC191F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +551,7 @@
 				6D78FC1B1F00E5EF0064670D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
