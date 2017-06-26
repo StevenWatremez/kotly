@@ -8,7 +8,6 @@
     tools:context="fr.stevenwatremez.koltyandroid.MainActivity">
 
     <TextView
-        android:id="@+id/firstTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

@@ -9,15 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-  
-  @IBOutlet private var firstTextView: UILabel!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.setupSubviews()
+    // Do any additional setup after loading the view, typically from a nib.
   }
-  
-  private func setupSubviews() {
-    self.firstTextView.text = "coucou"
+
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
   }
+
+
 }
+
