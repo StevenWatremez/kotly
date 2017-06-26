@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D78FBEF1F00E5EF0064670D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FBEE1F00E5EF0064670D /* AppDelegate.swift */; };
+		6D78FBF11F00E5EF0064670D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FBF01F00E5EF0064670D /* ViewController.swift */; };
+		6D78FBF41F00E5EF0064670D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D78FBF21F00E5EF0064670D /* Main.storyboard */; };
+		6D78FBF61F00E5EF0064670D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D78FBF51F00E5EF0064670D /* Assets.xcassets */; };
+		6D78FBF91F00E5EF0064670D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D78FBF71F00E5EF0064670D /* LaunchScreen.storyboard */; };
+		6D78FC041F00E5EF0064670D /* Kotly_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FC031F00E5EF0064670D /* Kotly_iOSTests.swift */; };
+		6D78FC0F1F00E5EF0064670D /* Kotly_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78FC0E1F00E5EF0064670D /* Kotly_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D78FC001F00E5EF0064670D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D78FBE31F00E5EF0064670D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D78FBEA1F00E5EF0064670D;
+			remoteInfo = "Kotly iOS";
+		};
+		6D78FC0B1F00E5EF0064670D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D78FBE31F00E5EF0064670D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D78FBEA1F00E5EF0064670D;
+			remoteInfo = "Kotly iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D78FBEB1F00E5EF0064670D /* Kotly iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kotly iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D78FBEE1F00E5EF0064670D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D78FBF01F00E5EF0064670D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D78FBF31F00E5EF0064670D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D78FBF51F00E5EF0064670D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D78FBF81F00E5EF0064670D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D78FBFA1F00E5EF0064670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D78FBFF1F00E5EF0064670D /* Kotly iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kotly iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D78FC031F00E5EF0064670D /* Kotly_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotly_iOSTests.swift; sourceTree = "<group>"; };
+		6D78FC051F00E5EF0064670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D78FC0A1F00E5EF0064670D /* Kotly iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kotly iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D78FC0E1F00E5EF0064670D /* Kotly_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotly_iOSUITests.swift; sourceTree = "<group>"; };
+		6D78FC101F00E5EF0064670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D78FBE81F00E5EF0064670D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D78FBFC1F00E5EF0064670D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D78FC071F00E5EF0064670D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D78FBE21F00E5EF0064670D = {
+			isa = PBXGroup;
+			children = (
+				6D78FBED1F00E5EF0064670D /* Kotly iOS */,
+				6D78FC021F00E5EF0064670D /* Kotly iOSTests */,
+				6D78FC0D1F00E5EF0064670D /* Kotly iOSUITests */,
+				6D78FBEC1F00E5EF0064670D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D78FBEC1F00E5EF0064670D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D78FBEB1F00E5EF0064670D /* Kotly iOS.app */,
+				6D78FBFF1F00E5EF0064670D /* Kotly iOSTests.xctest */,
+				6D78FC0A1F00E5EF0064670D /* Kotly iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D78FBED1F00E5EF0064670D /* Kotly iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D78FBEE1F00E5EF0064670D /* AppDelegate.swift */,
+				6D78FBF01F00E5EF0064670D /* ViewController.swift */,
+				6D78FBF21F00E5EF0064670D /* Main.storyboard */,
+				6D78FBF51F00E5EF0064670D /* Assets.xcassets */,
+				6D78FBF71F00E5EF0064670D /* LaunchScreen.storyboard */,
+				6D78FBFA1F00E5EF0064670D /* Info.plist */,
+			);
+			path = "Kotly iOS";
+			sourceTree = "<group>";
+		};
+		6D78FC021F00E5EF0064670D /* Kotly iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D78FC031F00E5EF0064670D /* Kotly_iOSTests.swift */,
+				6D78FC051F00E5EF0064670D /* Info.plist */,
+			);
+			path = "Kotly iOSTests";
+			sourceTree = "<group>";
+		};
+		6D78FC0D1F00E5EF0064670D /* Kotly iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D78FC0E1F00E5EF0064670D /* Kotly_iOSUITests.swift */,
+				6D78FC101F00E5EF0064670D /* Info.plist */,
+			);
+			path = "Kotly iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D78FBEA1F00E5EF0064670D /* Kotly iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D78FC131F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOS" */;
+			buildPhases = (
+				6D78FBE71F00E5EF0064670D /* Sources */,
+				6D78FBE81F00E5EF0064670D /* Frameworks */,
+				6D78FBE91F00E5EF0064670D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kotly iOS";
+			productName = "Kotly iOS";
+			productReference = 6D78FBEB1F00E5EF0064670D /* Kotly iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D78FBFE1F00E5EF0064670D /* Kotly iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D78FC161F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOSTests" */;
+			buildPhases = (
+				6D78FBFB1F00E5EF0064670D /* Sources */,
+				6D78FBFC1F00E5EF0064670D /* Frameworks */,
+				6D78FBFD1F00E5EF0064670D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D78FC011F00E5EF0064670D /* PBXTargetDependency */,
+			);
+			name = "Kotly iOSTests";
+			productName = "Kotly iOSTests";
+			productReference = 6D78FBFF1F00E5EF0064670D /* Kotly iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D78FC091F00E5EF0064670D /* Kotly iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D78FC191F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOSUITests" */;
+			buildPhases = (
+				6D78FC061F00E5EF0064670D /* Sources */,
+				6D78FC071F00E5EF0064670D /* Frameworks */,
+				6D78FC081F00E5EF0064670D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D78FC0C1F00E5EF0064670D /* PBXTargetDependency */,
+			);
+			name = "Kotly iOSUITests";
+			productName = "Kotly iOSUITests";
+			productReference = 6D78FC0A1F00E5EF0064670D /* Kotly iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D78FBE31F00E5EF0064670D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Niji;
+				TargetAttributes = {
+					6D78FBEA1F00E5EF0064670D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					6D78FBFE1F00E5EF0064670D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 6D78FBEA1F00E5EF0064670D;
+					};
+					6D78FC091F00E5EF0064670D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 6D78FBEA1F00E5EF0064670D;
+					};
+				};
+			};
+			buildConfigurationList = 6D78FBE61F00E5EF0064670D /* Build configuration list for PBXProject "Kotly iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D78FBE21F00E5EF0064670D;
+			productRefGroup = 6D78FBEC1F00E5EF0064670D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D78FBEA1F00E5EF0064670D /* Kotly iOS */,
+				6D78FBFE1F00E5EF0064670D /* Kotly iOSTests */,
+				6D78FC091F00E5EF0064670D /* Kotly iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D78FBE91F00E5EF0064670D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D78FBF91F00E5EF0064670D /* LaunchScreen.storyboard in Resources */,
+				6D78FBF61F00E5EF0064670D /* Assets.xcassets in Resources */,
+				6D78FBF41F00E5EF0064670D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D78FBFD1F00E5EF0064670D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D78FC081F00E5EF0064670D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D78FBE71F00E5EF0064670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D78FBF11F00E5EF0064670D /* ViewController.swift in Sources */,
+				6D78FBEF1F00E5EF0064670D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D78FBFB1F00E5EF0064670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D78FC041F00E5EF0064670D /* Kotly_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D78FC061F00E5EF0064670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D78FC0F1F00E5EF0064670D /* Kotly_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D78FC011F00E5EF0064670D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D78FBEA1F00E5EF0064670D /* Kotly iOS */;
+			targetProxy = 6D78FC001F00E5EF0064670D /* PBXContainerItemProxy */;
+		};
+		6D78FC0C1F00E5EF0064670D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D78FBEA1F00E5EF0064670D /* Kotly iOS */;
+			targetProxy = 6D78FC0B1F00E5EF0064670D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D78FBF21F00E5EF0064670D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D78FBF31F00E5EF0064670D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D78FBF71F00E5EF0064670D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D78FBF81F00E5EF0064670D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D78FC111F00E5EF0064670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D78FC121F00E5EF0064670D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D78FC141F00E5EF0064670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8NWXKTJBC;
+				INFOPLIST_FILE = "Kotly iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D78FC151F00E5EF0064670D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8NWXKTJBC;
+				INFOPLIST_FILE = "Kotly iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D78FC171F00E5EF0064670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C8NWXKTJBC;
+				INFOPLIST_FILE = "Kotly iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kotly iOS.app/Kotly iOS";
+			};
+			name = Debug;
+		};
+		6D78FC181F00E5EF0064670D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C8NWXKTJBC;
+				INFOPLIST_FILE = "Kotly iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kotly iOS.app/Kotly iOS";
+			};
+			name = Release;
+		};
+		6D78FC1A1F00E5EF0064670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C8NWXKTJBC;
+				INFOPLIST_FILE = "Kotly iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kotly iOS";
+			};
+			name = Debug;
+		};
+		6D78FC1B1F00E5EF0064670D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C8NWXKTJBC;
+				INFOPLIST_FILE = "Kotly iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.watremez.Kotly-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kotly iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D78FBE61F00E5EF0064670D /* Build configuration list for PBXProject "Kotly iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D78FC111F00E5EF0064670D /* Debug */,
+				6D78FC121F00E5EF0064670D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D78FC131F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D78FC141F00E5EF0064670D /* Debug */,
+				6D78FC151F00E5EF0064670D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D78FC161F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D78FC171F00E5EF0064670D /* Debug */,
+				6D78FC181F00E5EF0064670D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D78FC191F00E5EF0064670D /* Build configuration list for PBXNativeTarget "Kotly iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D78FC1A1F00E5EF0064670D /* Debug */,
+				6D78FC1B1F00E5EF0064670D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D78FBE31F00E5EF0064670D /* Project object */;
+}
