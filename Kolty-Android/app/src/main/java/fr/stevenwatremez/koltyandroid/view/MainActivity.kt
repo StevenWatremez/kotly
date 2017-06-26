@@ -1,7 +1,8 @@
-package fr.stevenwatremez.koltyandroid
+package fr.stevenwatremez.koltyandroid.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import fr.stevenwatremez.koltyandroid.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
